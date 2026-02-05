@@ -3,6 +3,7 @@ import './App.css';
 import ToggleButton from './ToggleButton'
 import InputComponent from './InputComponent';
 import RegisterForm from './RegisterForm';
+import Counter from './Counter'
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
       <InputComponent />
       <br></br>
       <RegisterForm />
+
+      <br></br>
+      <Counter 
+          initialValue={ Math.floor((Math.random() * 10 ) + 1)}
+      />
     </div>
   );
 }
