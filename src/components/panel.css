@@ -1,0 +1,4 @@
+.panel .incButton, .panel .decButton {
+    display: inline;
+    margin: 5px, 10px, 0px
+}
